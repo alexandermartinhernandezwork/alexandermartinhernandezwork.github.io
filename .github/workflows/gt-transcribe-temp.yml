@@ -1,0 +1,10 @@
+name: GT Transcribe Temp
+on:
+  push:
+    branches:
+      - gt-transcribe-temp-20260924
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo GT_ACTION_OK
